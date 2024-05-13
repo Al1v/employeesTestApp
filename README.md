@@ -37,6 +37,7 @@ It wasn't mentioned in the task how we receive the file. If the file is going to
 to the 'upload' request, save it using interceptor and remove after successful data upload to DB
 
 P.S. the task didn't mentioned some usual functionality like authorization/authentications, thus, they weren't implemented.
+The .env usually shouldn't be exposed in repository, this was done intentionally for convenience.
 
 
 
